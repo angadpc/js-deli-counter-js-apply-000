@@ -1,6 +1,6 @@
 var takeANumber = function(currentLine, personName) {
   currentLine.push(personName);
-  return "Welcome " + personName + ". You are number " + (currentLine.indexOf(personName)+1) + " in line."
+  return "Welcome, " + personName + ". You are number " + (currentLine.indexOf(personName)+1) + " in line."
 }
 
 var nowServing = function(katzDeliLine) {
