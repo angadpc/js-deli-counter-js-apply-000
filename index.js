@@ -8,14 +8,14 @@ var nowServing = function(katzDeliLine) {
     return "There is nobody waiting to be served!";
   } else {
     var person = katzDeliLine.shift();
-    return "Currently serving " + person;
+    return "Currently serving " + person + ".";
   }
 }
 
 var currentLine = function(currentLine) {
   var beginningStr = "The line is currently:";
   if(currentLine.length == 0) {
-    return "The line is currently empty";
+    return "The line is currently empty.";
   } else {
     for (var i = 0; i < currentLine.length; i++) {
       modI = i + 1;
