@@ -25,5 +25,6 @@ var currentLine = function(currentLine) {
       beginningStr = beginningStr + " " + modI + ". " + currentLine[i];
     }
     }
+    return beginningStr;
   }
 }
