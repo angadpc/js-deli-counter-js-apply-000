@@ -18,7 +18,7 @@ var currentLine = function(currentLine) {
     return "The line is currently empty.";
   } else {
     for (var i = 0; i < currentLine.length; i++) {
-      modI = i + 1;
+      var modI = i + 1;
       if(i < currentLine.length - 1) {
       beginningStr = beginningStr + " " + modI + ". " + currentLine[i] + ",";
     } else {
